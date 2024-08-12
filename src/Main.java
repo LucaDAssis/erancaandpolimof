@@ -33,6 +33,9 @@ public class Main {
             System.out.println("Update balance!");
         }
 
+        //aqui tbm tem um conceito de polimorfismo onde cada withdraw funciona de uma forma diferente
+        //na conta normal tem um acrescimo de 5.0, BusinessAccount de 2.0, e a SavingsAccount não tem taxa.
+
         //Aqui uma conta normal tendo a taxa de 5.0 do withdraw
         Account lucas = new Account(1005, "Lucas", 1000.0);
         lucas.withdraw(200.0);
