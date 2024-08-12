@@ -44,6 +44,11 @@ public class Main {
         System.out.println(rafa.getBalance());
 
 
+        //aqui usei outra forma de sobreescrita com a palavra super.
+        Account isaac = new BusinessAccount(1007, "Isaac", 1000.0, 500.0);
+        isaac.withdraw(200.0);
+        System.out.println(isaac.getBalance());
+
 
 
     }
